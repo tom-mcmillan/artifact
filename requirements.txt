@@ -1,0 +1,5 @@
+fastapi[all]
+python-dotenv
+uvicorn>=0.34
+openai
+mcp
