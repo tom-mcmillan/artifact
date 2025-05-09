@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "artifacting"
+version = "0.1.0"
+dependencies = [
+  "fastapi[all]",
+  "uvicorn>=0.34",
+  "python-dotenv",
+  "openai",
+  "mcp",
+]
